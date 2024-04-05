@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply text-darkGrayishBlue	mb-8 text-4xl font-bold opacity-100;
+  }
+}
+
+.section-container {
+  @apply m-auto max-w-6xl p-10 text-center;
+}
+
+.section-content {
+  @apply text-strongCyan m-auto max-w-3xl text-center leading-10;
+}
